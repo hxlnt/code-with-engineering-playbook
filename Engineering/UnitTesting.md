@@ -1,7 +1,7 @@
 # Unit Testing
 
 ## Goals
-Unit tests play an integral role in building quality software and enabling agile methodologies. [CSE](../CSE.md) recommends all efforts follow [Test Driven Development](http://deviq.com/test-driven-development/) where ever possible, i.e. code should have unit tests unless it's developed for an environment with unit testing capabilities, e.g. Azure Stream Analytics. With TDD, engineers start with coding the test(s), which will initially fail. The implementation of the unit is finished when the unit satisfies the tests.
+Unit tests play an integral role in building quality software and enabling agile methodologies. [CSE](../CSE.md) recommends all efforts follow [Test Driven Development](http://deviq.com/test-driven-development/) where ever possible, i.e. code should have unit tests unless it's developed for an environment without unit testing capabilities, e.g. Azure Stream Analytics. With TDD, engineers start with coding the test(s), which will initially fail. The implementation of the unit is finished when the unit satisfies the tests.
 
 ### Unit tests have several goals:
 - Ensure code fulfills functional and non-functional requirements
@@ -11,7 +11,7 @@ Unit tests play an integral role in building quality software and enabling agile
 - Developer Documentation of API usage
 
 ## Evidence and Measures
-The [CICD already requires badges in place](../CICD) for every repo to quickly assess code coverage and test pass/fail.
+The [CICD already requires badges in place](../Engineering/CICD.md) for every repo to quickly assess code coverage and test pass/fail.
 
 The team should also keep in an eye on tests that may not be running as part of every merge, i.e. integration and e2e test.
 
@@ -52,3 +52,4 @@ Languages and Platforms provide their own unit test tools and frameworks. In [CS
 - .NET Tutorial: https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code
 - Java Tutorial: http://tutorials.jenkov.com/java-unit-testing/index.html
 - Unit Testing Spark: http://www.jesse-anderson.com/2016/04/unit-testing-spark-with-java/
+- Book The Art of Unit Testing: With Examples in .NET - by Roy Osherove: https://www.goodreads.com/book/show/6487349-the-art-of-unit-testing
